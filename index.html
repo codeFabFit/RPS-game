@@ -9,6 +9,11 @@
     <script src="script.js"defer></script>
 </head>
 <body>
+
+<h1>Lets Play Rock Paper Scissors</h1>
+<h3>Can you beat the computer</h3>
+<p>We will keep track of the score below</p>
+
     <div class="selections">
     <button class="selection" data-selection="rock">👊🏾</button>
     <button class="selection" data-selection="paper">🖐🏾</button>
@@ -17,11 +22,12 @@
 <div class="results">
 <div>
     You
-    <span class="result-score">0</span>
+    <span class="result-score" data-your-score>0</span>
 </div>
+<div data-final-column>
 <div>
     Computer
-    <span class="result-score">0</span>
+    <span class="result-score" data-computer-score>0</span>
 </div>
 <!-- identify the winner
 <div class="result-selection winner">👊🏾</div>
